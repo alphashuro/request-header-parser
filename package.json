@@ -1,0 +1,30 @@
+{
+  "name": "request-header-parser",
+  "version": "1.0.0",
+  "description": "Free Code Camp project",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava test.js",
+    "start": "node --harmony index.js",
+    "dev": "nodemon --harmony index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alphashuro/request-header-parser.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alphashuro/request-header-parser/issues"
+  },
+  "homepage": "https://github.com/alphashuro/request-header-parser#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "express-request-language": "^1.1.4"
+  },
+  "devDependencies": {
+    "ava": "^0.12.0"
+  }
+}
