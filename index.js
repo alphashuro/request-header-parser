@@ -6,4 +6,4 @@ app.get('/api/whoami/', (req, res) => {
   res.send(info);
 });
 
-app.listen(8080);
+app.listen(process.env.PORT || 8080);
